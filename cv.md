@@ -36,3 +36,4 @@ console.log(i);
 
 - Russian
 - Belarusian
+- English beginner
