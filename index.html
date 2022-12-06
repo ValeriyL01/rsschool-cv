@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lato:wght@400;700&family=Red+Hat+Text&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap"
+      rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#Contact" class="nav-link">My Contact Info</a></li>
+            <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#Code" class="nav-link">Code Examples</a></li>
+            <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a> </li>
+            <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a> </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="name-wrapper">
+          <div class="name">
+            <h1 class="my-name">Valeriy Lastovka</h1>
+            <!-- <p>Junior Front-end Developer</p> -->
+          </div>
+          <img
+            class="my-photo"
+            src="assets/IMG_20210516_172856.jpg"
+            alt="my photo">
+        </div>
+        <div class="wrapper-section">
+          <div class="section" id="Contact">
+            <h2 class="section-title">My Contact Info</h2>
+            <ul class="contacts">
+              <li class="contacts-item"> Address:<span class="contacts-item_color"> Minsk Belarus</span></li>
+              <li class="contacts-item"> Discord:<span class="contacts-item_color">ValeriyL(ValeriyL01)#2452</span> </li>
+              <li class="contacts-item">E-mail:<span class="contacts-item_color"> lastovka.valeriy.00@mail.ru</span></li>
+              <li class="contacts-item"> GitHub: <span class="contacts-item_color">ValeriyL01</span></li>
+            </ul>
+          </div>
+          <div class="section" id="About">
+            <h2 class="section-title">About Me</h2>
+            <p class="text">I am 27 years old, I am engaged in electrophysical measurements, I want to study, a new specialty.</p>
+          </div>
+          <div class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="contacts">
+              <li class="contacts-item">HTML</li>
+              <li class="contacts-item">CSS</li>
+              <li class="contacts-item">JavaScript</li>
+              <li class="contacts-item">Github</li>
+            </ul>
+          </div>
+          <div class="section" id="Code">
+            <h2 class="section-title">Code Examples</h2>
+            <p class="code-examples">function multiply(a, b){<br>
+              return a * b<br>
+             }</p>
+          </div>
+          <div class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+            <p class="text">Vitebsk State Polytechnic College.</p>
+          </div>
+          <div class="section" id="Languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="contacts">
+              <li class="contacts-item">Russian</li>
+              <li class="contacts-item">Belarusian</li>
+              <li class="contacts-item">English beginner</li>
+            </ul>
+          </div>
+          <div class="section projects" id="Projects">
+            <h2 class="section-title">Projects</h2>
+            <p class="text"><a class = 'link-projects' href="https://rolling-scopes-school.github.io/valeriyl01-JSFE2022Q3/online-zoo/pages/petstory/" target="_blank">Online Zoo</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <span><a class = "github-link" href="https://github.com/ValeriyL01" target="_blank">ValeriyL01</a></span>
+        <span class = "age">2022</span>
+       <a  class = "rs-link" target="_blank" href="https://rs.school/js-stage0/"> <img class ="rs-logo" src="assets/rs_school_js.svg" alt="rs school"></a>
+      </div>
+    </footer>
+  </body>
 </html>
+
