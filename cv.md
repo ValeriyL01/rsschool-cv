@@ -19,6 +19,7 @@ I am 27 years old, I am engaged in electrophysical measurements, I want to study
 - HTML
 - CSS
 - JavaScript
+- GitHub
 
 # Code Examples
 
